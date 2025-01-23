@@ -4,7 +4,7 @@
 \alias{square}
 \title{Square a chuffing number}
 \usage{
-square()
+square(x)
 }
 \arguments{
 \item{x}{number to be squared}
@@ -16,5 +16,5 @@ A squared number
 What she said
 }
 \examples{
-square()
+square(10)
 }

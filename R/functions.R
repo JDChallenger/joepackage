@@ -9,7 +9,7 @@
 #' @export
 #'
 #' @examples
-#' square()
+#' square(10)
 square <- function(x){
   x*x
 }
