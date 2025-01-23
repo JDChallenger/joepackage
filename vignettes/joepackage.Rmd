@@ -1,0 +1,27 @@
+---
+title: "joepackage"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{joepackage}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+# Yer da'
+
+
+```{r}
+library(joepackage)
+square(10)
+```
+
+```{r setup}
+library(joepackage)
+```
